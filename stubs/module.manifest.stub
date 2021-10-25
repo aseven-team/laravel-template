@@ -1,0 +1,8 @@
+{
+    "name": "{{ moduleName }}",
+    "alias": "{{ moduleNameLower }}",
+    "description": "",
+    "providers": [
+        "App\\Modules\\{{ moduleName }}\\Providers\\{{ moduleName }}ServiceProvider"
+    ]
+}
